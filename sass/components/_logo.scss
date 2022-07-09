@@ -9,9 +9,11 @@
         font-size: 24px;
     }
     &__header {
-        margin-right: 93px;}
-        @include mq(tablet-only) {
-            margin-right: auto;
+        margin-right: 93px;
+      @include mq(tablet-only) {
+          margin-right: auto;
+      } 
+  }
     &__text-header {
         color: var(--secondtextcolor);
     }
@@ -33,4 +35,3 @@
         margin-bottom: 20px;
     }
   }
-}
