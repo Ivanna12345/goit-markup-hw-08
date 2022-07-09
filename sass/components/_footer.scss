@@ -153,6 +153,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--whitetextcolor);
+    margin-bottom: 20px;
     
     @include mq(notDesktop) {
       text-align: center;

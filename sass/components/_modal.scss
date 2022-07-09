@@ -64,3 +64,8 @@
     color: var(--secondtextcolor);
   }
 }
+@media screen and (max-width: 588px) {
+  .modal {
+    padding: 25px;
+  }
+}
