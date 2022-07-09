@@ -36,12 +36,77 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   @include mq (mobile) {
+    width: 480px;
+  }
+  @include mq(tablet) {
+    width: 768px;
+  }
+  @include mq(desktop) {
+    width: 1200px;
+  }
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  @include mq(notDesktop) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0px;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+body {
+  color: var(--maintextcolor);
+  font-family: var(--main-font), sans-serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  font-style: normal;
+
+}
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  @include mq(mobile) {
     width: 480px;
   }
   @include mq(tablet) {
