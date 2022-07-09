@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+
+  </head>
+  <body>
+    <!--header-->
+    <header class="header">
+      <div class="container header__container">
+        <a href="./index.html" class="logo logo__header"
+          >Web<span class="logo__text-header">Studio</span></a
+        >
+        <button
+          class="header__btn"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          data-menu-button
+        >
+          <svg class="header__btn-icon" width="40px" height="40px">
+            <use
+              class="header__btn-open"
+              href="./images/symbol-defs.svg#menu_burger"
+            ></use>
+            <use
+              class="header__btn-close"
+              href="./images/symbol-defs.svg#close_burger"
+            ></use>
+          </svg>
+        </button>
+        <div class="mobile-menu" id="mobile-menu" data-menu>
+          <div class="mobile-menu__wrapper">
+            <ul class="mobile-menu__list">
+              <li class="mobile-menu__item">
+                <a href="./index.html" class="mobile-menu__link"
+                  >Студия</a
+                >
+              </li>
+              <li class="mobile-menu__item">
+                <a href="./portfolio.html" class="mobile-menu__link"
+                  >Портфолио</a
+                >
+              </li>
+              <li class="mobile-menu__item">
+                <a href="./contact.html" class="mobile-menu__link current">Контакты</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="mobile-menu__list">
+              <li class="mobile-menu__point">
+                <a href="tel:+380961111111" class="mobile-menu__tel"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="mobile-menu_mail"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mobile-menu__links">
+              <li class="mobile-menu__social">
+                <a href="instagram.com" class="mobile-menu__link-item"
+                  >Instagram</a
+                >
+              </li>
+              <li class="mobile-menu__social">
+                <a href="twitter.com" class="mobile-menu__link-item">Twitter</a>
+              </li>
+              <li class="mobile-menu__social">
+                <a href="facebook.com" class="mobile-menu__link-item"
+                  >Facebook</a
+                >
+              </li>
+              <li class="mobile-menu__social">
+                <a href="linkedin.com" class="mobile-menu__link-item"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link">Студия</a>
+            </li>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link">Портфолио</a>
+            </li>
+            <li class="nav__item">
+              <a href="./contact.html" class="nav__link current">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="contact">
+          <li class="contact__item">
+            <a href="mailto:info@devstudio.com" class="contact__link">
+              <svg class="contact__point" width="16" height="12">
+                <use href="./images/symbol-defs.svg#mail"></use>
+              </svg>
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="contact__item">
+            <a href="tel:+380961111111" class="contact__link">
+              <svg class="contact__point" width="16" height="12">
+                <use href="./images/symbol-defs.svg#phone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1>content contact</h1>
+          <video src="./videos/fishing.mp4" width="400" controls></video>
+        </div>
+      </section>
+    </main>
+    <!--footer hw-->
+    <footer class="footer">
+      <div class="container footer__block">
+        <div class="footer__wrapper">
+        <div class="logo__box">
+          <a href="./index.html" class="logo logo__footer"
+            >Web<span class="logo__text-footer">Studio</span></a
+          >
+          <address>
+            <ul>
+              <li class="footer__item">
+                <a
+                  href="https://goo.gl/maps/XMWMVRejnvmh2yPAA"
+                  class="footer__address"
+                  >г. Киев, пр-т Леси Украинки, 26 </a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="mailto:info@example.com" class="footer__contact"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="tel:+380991111111" class="footer__contact"
+                  >+38 099 111 11 11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer__join">
+          <p class="footer__join-title">присоеденяйтесь</p>
+          <ul class="footer__contact-list">
+            <li class="footer__contact-item">
+              <a class="footer__social" href="twitter.com"
+                ><svg class="footer__icon-link" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__contact-item">
+              <a class="footer__social" href="facebook.com"
+                ><svg class="footer__icon-link" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__contact-item">
+              <a class="footer__social" href="linkedin.com"
+                ><svg class="footer__icon-link" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__contact-item">
+              <a class="footer__social" href="instagram.com"
+                ><svg class="footer__icon-link" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        </div>
+        <form class="subscribe__form" name="subscribe" autocomplete="off">
+          <p class="subscribe__title">Подпишитесь на рассылку</p>
+          <div class="subscribe__box">
+            <input
+              class="subscribe__input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+            <button class="subscribe__button button__one" type="submit">
+              <span>Подписаться</span>
+              <svg class="subscribe__icon" width="24" height="24">
+                <use href="./images/symbol-defs.svg#send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </footer>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>
